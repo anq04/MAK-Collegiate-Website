@@ -1,0 +1,223 @@
+@font-face{
+    font-family: "Lobester-Regular"; src:url(Lobster-Regular.ttf);
+}
+@font-face{
+    font-family: "DM-MONO"; src: url(DM_Mono/DMMono-Italic.ttf);
+}
+@font-face{
+    font-family: "DMmono"; src: url(DM_Mono/DMMono-MediumItalic.ttf);
+}
+@font-face{
+    font-family: DM_Mono; src: url(DM_Mono/DMMono-LightItalic.ttf);
+}
+.container-fluid{
+    background-color: rgb(251, 233, 231) !important;
+}
+h1, h2, h4{
+    font-family: Lobester-Regular;
+    display: block !important ;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+    color:rgb(244, 81, 30);
+    text-shadow: 1px 1px 2px gray;
+}
+.navbar-nav li a{
+color: rgb(255, 214, 0) !important;
+font-weight: bold !important;
+text-shadow: 2px 2px 3px rgb(245, 127, 23)!important;
+}
+.navbar-text{
+    color: rgb(255, 224, 130) !important ;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px black;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li {
+    font-family: DM_Mono;
+}
+button {
+    font-family: DM-MONO;
+}
+p{
+    font-family: DM-MONO;
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 20px;
+    width: 1200px;
+}
+span{
+    font-family: DMmono;
+}
+table{
+    font-family: DMmono;
+}
+#logo{
+   float: left;
+}
+
+#header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.navbar{
+    background-color: rgb(183, 28, 28);
+}
+
+.marquee marquee{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    font-family: DM-MONO;
+    background-color: rgb(255, 209, 128);
+    margin-left:20px;
+    color: rgb(221, 44, 0);
+}
+
+#oursay #large{
+    font-size: 60px;
+}
+
+
+#important li{
+ font-size:25px;
+ font-weight: bolder;
+ margin-top: 60px;
+ background-color:rgb(228, 140, 26);
+ width: auto;
+ 
+}
+#important #video{
+    float: left !important;
+    margin-bottom: 20px;
+    width: 400px;
+
+}
+
+
+#oursay{
+    border-style: solid;
+    border-color: rgb(233, 81, 25);
+    background-color: palegoldenrod;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 60%;
+}
+#oursay img{
+    width: 50%;
+    display: inline-block;
+}
+#oursay p{
+    display: inline-block;
+    width: 350px;
+    padding-left: 30px;
+
+}
+
+#table table{
+    width:1300px;
+   margin-left: 30px;
+   text-align: center;
+   border-style: groove;
+   border-color: orange;
+   margin-top: 10px;
+   background-color: sandybrown;
+
+}
+#footer p {
+   text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    background-color: thistle;
+    margin-left: 30px;
+    width: 100%;
+}
+
+#footer a:hover{
+    cursor: pointer;
+}
+#online #big{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    display: block; 
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;}
+
+
+#online img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#closed{
+    background-color: palegoldenrod;
+    color: rgb(241, 58, 25);
+   border: solid;
+   border-color: orangered;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 800px;
+}
+#closed p{
+    float: left;
+    max-width: 400px;
+    text-align: center;
+}
+#closed img{
+    max-width: 400px;
+}
+
+#safe{
+    text-decoration: underline;
+    font-size: 20px;
+  align-content: center;
+  color: maroon;
+}
+
+ .imageContainer img{
+      display:inline-block !important;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+  }
+.branch table {
+border: 1px solid;
+padding-left: 30px;
+padding-right: 30px;
+display: block;
+margin: auto;
+background-color: navajowhite;
+}
+.system table{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+border: 1px solid;
+background-color: navajowhite
+}
+.navbar-nav a:hover{
+    color: black !important;
+}
+
+@media only screen and (max-width:768){
+    #important #video{
+        clear: both; width: 400px;
+    }
+}
